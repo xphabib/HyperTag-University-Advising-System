@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Hypertag.Advising.exe" version="1.0.0.1" publicKeyToken="027e9326fcd71109" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hypertag.Advising" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Hypertag.Advising.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hypertag.Advising.exe" size="353752">
+      <assemblyIdentity name="Hypertag.Advising" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qKJ109TMvNraln4odF/LyXcEeux9Qlr+j3ngB/BHWWk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.Common.dll" size="6391672">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5HUSIEejY3H2Hoa40Jn8jW8mO9O9sD0AsRFrDLWyhjY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="548224">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6sxywAKV0FfDrZqqqr7zCGylKhT6cX4W7wU0ABGnH4g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Help\file.html" size="289">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HLzDnhaaU9IlW6cL5oEwAD62EIDmKDrChCzFwQIZgpQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Help\reference.html" size="236">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0p/7llZHjjuQ0nLCfhdBFREAHsFbpD80gIJJ0CHH5XI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Help\user.html" size="231">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GfCTpYyeeTTV2d2A5uGOBXAP79UqH10J5zYMt+xVl5I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Hypertag.Advising.exe.config" size="2497">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HdSihNrqWDNYkp7qeevtuq9sA6B8o686NWR2mdgTO3c=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-TET4QE8\Arif" issuerKeyHash="1edf6b05a2d0c6b6c37c6eddcadded7d622022ae" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ssA3o+hvFC+9iYsYbb1FdHYLVopLu07p+OCXIxzT4HU=</DigestValue></Reference></SignedInfo><SignatureValue>vf9/DRgGZ8cUpdOHwUju8tYxMzSnso1zaN25YWBVEvfFY2S1QoTZh1FjnSXLnRq5zhiBqo4U70nBOZJRIY6x3zogVkFZjgjAVwOe4e7Lt1RDiQF6Ae1lDr1Vq+fpdrUiVZFzsMrNM3H1qgGnudS680UxV46wuADDpnvCL6YOlvU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1RncPWkt4CCpjkXJIx9t8sfIvVBYO/Lzu6Ovxmth29rMEyY9BXgLNay032e5bI4SW/MNfN0o+quN+ktaavQrT3kC/CkQGy4u7aQY8iFLhND3uTW/eyV5Z9kxl4Ndhw4xEhvc92/yYJmHaHuSf63suPiEDelO1FtzVCEY5h0+C+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="75e0d31c2397e0f8e94ebb4b8a560b767445bd6d188b89bd2f146fe8a337c0b2" Description="" Url=""><as:assemblyIdentity name="Hypertag.Advising.exe" version="1.0.0.1" publicKeyToken="027e9326fcd71109" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TET4QE8\Arif</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>tvO263IRx5e3+lgXu3jar41QOVxZVUawacVU38YvQOE=</DigestValue></Reference></SignedInfo><SignatureValue>WwuVOVH9tAoIIcGQTLSD9oZFb+JNhGRtXc+9jwFN6XbMnu5VeHeBmrNSfy3rZGNytCzBhy8eeuI4CKpev67zkNy9BBNz73ARKJxRS8MMOFFRAvl9dQhB/yGe5ny/JcacFh228mBKdqgkTbJPfHAyGqJBjRa2iRmtvizRvCPE8f4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1RncPWkt4CCpjkXJIx9t8sfIvVBYO/Lzu6Ovxmth29rMEyY9BXgLNay032e5bI4SW/MNfN0o+quN+ktaavQrT3kC/CkQGy4u7aQY8iFLhND3uTW/eyV5Z9kxl4Ndhw4xEhvc92/yYJmHaHuSf63suPiEDelO1FtzVCEY5h0+C+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQEzaf/nRR45FKEbsd9pS3JzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAFQARQBUADQAUQBFADgAXABBAHIAaQBmMB4XDTE3MTEyMzEyMDQ0OVoXDTE4MTEyMzE4MDQ0OVowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBUAEUAVAA0AFEARQA4AFwAQQByAGkAZjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1RncPWkt4CCpjkXJIx9t8sfIvVBYO/Lzu6Ovxmth29rMEyY9BXgLNay032e5bI4SW/MNfN0o+quN+ktaavQrT3kC/CkQGy4u7aQY8iFLhND3uTW/eyV5Z9kxl4Ndhw4xEhvc92/yYJmHaHuSf63suPiEDelO1FtzVCEY5h0+C+UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAXq6u+cg9/cf1S/whKjtGsAjO/rDzzvRbF91k0iLvXlhDkxxpbpDHQjPZRLRWi4S0OBFNYQsMDUUN2cpMFXKR40VakZBZwJYYoqO9nj5B7LnIczfpF5sSBvM635QTy2cwCvjxAWumWy6FG9zFGECn+XfO159iM1IHJxRlz/BJAMA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
